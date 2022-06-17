@@ -84,6 +84,8 @@ void _configureAmplify() async {
     });
   }
 
+  
+
   @override
   void initState() {
     _configureAmplify();
