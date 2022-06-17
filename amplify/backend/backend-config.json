@@ -1,0 +1,34 @@
+{
+    "auth": {
+        "flutter": {
+            "service": "Cognito",
+            "serviceType": "managed",
+            "providerPlugin": "awscloudformation",
+            "dependsOn": [],
+            "frontendAuthConfig": {
+                "socialProviders": [],
+                "usernameAttributes": [],
+                "signupAttributes": [],
+                "passwordProtectionSettings": {
+                    "passwordPolicyCharacters": []
+                },
+                "mfaTypes": [],
+                "verificationMechanisms": []
+            }
+        }
+    },
+    "analytics": {
+        "flutter": {
+            "service": "Pinpoint",
+            "providerPlugin": "awscloudformation"
+        }
+    },
+    "notifications": {
+        "flutter": {
+            "service": "Pinpoint",
+            "channels": [
+                "FCM"
+            ]
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "flutter_identitypool_691ea9d1",
+    "allowUnauthenticatedIdentities": true,
+    "authSelections": "identityPoolOnly",
+    "resourceName": "flutter",
+    "sharedId": "691ea9d1",
+    "serviceName": "Cognito",
+    "useDefault": "manual"
+  }
+}
