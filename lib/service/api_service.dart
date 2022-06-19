@@ -4,9 +4,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutterapp/env.dart';
 import 'package:http/http.dart' as http;
 
-
 class ApiService {
-  static String baseUrl =API_URL;
+  static String baseUrl = API_URL;
 
   static get(String rota) async {
     var response = await http.get(Uri.parse("${ApiService.baseUrl}$rota"));
